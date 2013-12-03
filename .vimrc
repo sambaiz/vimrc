@@ -20,6 +20,11 @@ NeoBundle 'Shougo/vimproc', {
 
 NeoBundle 'tpope/vim-rails'    
 
+"status bar
+NeoBundle 'itchyny/lightline.vim' 
+set laststatus=2
+
+
 filetype plugin indent on
 NeoBundleCheck
 
